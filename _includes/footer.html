@@ -1,4 +1,5 @@
 <footer>
+	{% if site.tmp_footer %}
 	<div class="footerLinks">
 		{% for page in site.pages %}
 			<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
@@ -7,7 +8,7 @@
 			<a href="{{ site.presskit_download_link }}">Press Kit</a>
 		{% endif %}
 	</div>
-  {% if site.tmp_footer %}
+
 	<div class="footerIcons">
 
 		{% if site.facebook_username %}
