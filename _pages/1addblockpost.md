@@ -8,9 +8,8 @@ include_in_header: true
 
 ## Коротка відео інструкція огляд системи
 
-Вітаємо, просимо ознайомитись із коротким відео, та дізнатись більше про роботу нашої системи:
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=18ZVXmc67RU" frameborder="0" allowfullscreen></iframe>
-
+Вітаємо, просимо ознайомитись із коротким відео, та дізнатись більше про роботу нашої системи [https://www.youtube.com/watch?v=18ZVXmc67RU](https://www.youtube.com/watch?v=18ZVXmc67RU):
+<iframe width="560" height="315" src="https://www.youtube.com/embed/18ZVXmc67RU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Заявка на підключення вашого блок-поста
 
