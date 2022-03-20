@@ -700,6 +700,9 @@ footer {
 .FooterSupportDiv {
     flex: 0 1 20%;
     margin-right: 40px;
+		display: flex;
+		-webkit-box-align: center;
+		align-items: center;
 }
 
 .hidden {
