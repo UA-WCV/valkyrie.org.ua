@@ -683,6 +683,20 @@ footer {
 
 }
 
+.FooterSupport {
+    margin-right: 16px;
+    width: 56px;
+    height: 56px;
+}
+
+.FooterSupportText {
+    font-size: 14px;
+    line-height: 140%;
+    color: rgb(130, 130, 130);
+    margin: 0px;
+    text-decoration: none;
+}
+
 .hidden {
 	display: none;
 }
