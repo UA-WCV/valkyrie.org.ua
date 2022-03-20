@@ -35,39 +35,38 @@ youtube_username                          : SQLua
 features                                  :
 
   - title                                 : Перевірка по сервісній базі МВС
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+    description                           : Із цієї бази можна отримати всю інформацію із процедури реєстрації автомобіля: VIN, модель, марку ТЗ, рік реєстрації, вагу, колір і т.д.
     fontawesome_icon_name                 : magic
 
   - title                                 : Перевірка по списках викрадених
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
+    description                           : Ми працюємо із офіційними списками викрадених трансортних засобів МВС, це одна із найнебезпечніших груп
     fontawesome_icon_name                 : mobile
 
   - title                                 : Перевірка по списках дисерсантів
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+    description                           : Списки формують на основі офіційних даних від правоохоронних органів
 
   - title                                 : Автоматичне розпізнавання номерних знаків
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
+    description                           : Наша система дозволяю за декілька мілісекунд розпізнати номерний знак і провірити його по наших доступних базах даних
     fontawesome_icon_name                 : sync
 
   - title                                 : Підключення і опрацювання відео стрімів
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
+    description                           : Основна ціль проекту допомогти працівникам блок-постів оперативно отримувати повну інформацію із офіційних джерел по трансортних засобів у режиі реального часу
     fontawesome_icon_name                 : adjust
 
   - title                                 : Співставлення кольору авто та марки із даними реєстрації
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
+    description                           : Наші моделі машиного навчання також розпізнають моделі, тип транспортних засобів та їхній колір. При співставлені цієї інформації із даними із сервісної бази МВС, можна ідентифікувати авто, які замінили номерний знак.
     fontawesome_icon_name                 : star
 
-  - title                                 : Підключення камер по протоколу RTSP
-    description                           : Display a smart app banner on iOS devices.
+  - title                                 : Сповіщення по рівнях ризикованості
+    description                           : Наша система має гнучку систему налаштування сповіщень, і можна отримувати інформацію лише у разі виявлення підозрілих авто.
     fontawesome_icon_name                 : arrow-alt-circle-down
 
   - title                                 : Інформація про останнє місце знаходження авто
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
+    description                           : Працівники правоороних органів також отримують зручний інструмент для перевірки останнього місце знаходження авто, яке первіряється на основі даних із інших блокпостів
     fontawesome_icon_name                 : link
 
   - title                                 : Можливість сповіщення підозрілих авто
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
+    description                           : Усі працівники блок-постів мають додатковий функціонал, який можна повідомити працівників навколишніх блокпостів про підозріле авто.
     fontawesome_icon_name                 : info-circle
 
   - title                                 : # New Feature Title
