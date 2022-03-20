@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Встановлення камери на блок-пості
+title: Додати блок-пост
 include_in_header: true
 ---
 
