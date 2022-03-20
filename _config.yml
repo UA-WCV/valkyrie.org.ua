@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : "@LicensePlateCheckBot"                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : За допомогою цього сервісу ви можете перевірити транспортний засіб по сервісній базі МВС, списках диверсантів та викрадених авто.
+app_description                           : За допомогою цього боту ви можете перевірити транспортний засіб по сервісній базі МВС, списках диверсантів та викрадених авто. <br> <br>
 enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
