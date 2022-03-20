@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Про нас
+title: Встановлення камери на блок-пості
 include_in_header: true
 ---
 
