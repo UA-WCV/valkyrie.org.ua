@@ -619,8 +619,8 @@ footer {
 	line-height: 1.5;
 	width: 100%;
 	text-align: center;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
 
 .footerIcons {
@@ -633,7 +633,7 @@ footer {
 .footerLinks {
 	display: flex;
 	text-align: center;
-	padding-bottom: 70px;
+	padding: 5px;
 }
 
 .footerLinks a {
@@ -676,7 +676,7 @@ footer {
 	}
 
 	.footerIcons {
-		padding-bottom: 70px;
+		padding: 5px;
 		display: flex;
 	}
 
