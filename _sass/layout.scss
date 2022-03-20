@@ -616,11 +616,11 @@ footer {
 .footerText {
 	color: $footer-text-color;
 	display: block;
-	line-height: 1.5;
+	line-height: 1;
 	width: 100%;
 	text-align: center;
 	padding-top: 5px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 
 .footerIcons {
@@ -633,7 +633,7 @@ footer {
 .footerLinks {
 	display: flex;
 	text-align: center;
-	padding: 5px;
+	padding-top: 20px;
 }
 
 .footerLinks a {
@@ -671,8 +671,8 @@ footer {
 		line-height: 1.5;
 		width: 100%;
 		text-align: center;
-		padding-top: 54px;
-		padding-bottom: 61px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	.footerIcons {
