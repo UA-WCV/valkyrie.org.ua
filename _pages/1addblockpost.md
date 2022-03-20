@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Додати блок-пост
+title: Підключення блок-поста
 include_in_header: true
 ---
 
