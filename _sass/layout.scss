@@ -221,6 +221,43 @@ nav > ul li a:active {
 	color: rgba($header-title-color, 1);
 }
 
+a.mobileIcon {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.scroll ul {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	a.mobileIcon {
+		color: #fff;
+		padding: 28px;
+		font-size: 24px;
+		cursor: pointer;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.menuLinks {
+		display: none;
+		position: absolute;
+		top: 80px;
+		left: 0px;
+		width: 100%;
+		z-index: 1;
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	nav > ul li {
+		padding: 15px;
+		font-weight: 500;
+	}
+}
 
 
 // Sub Page Header Styling
@@ -238,6 +275,17 @@ nav > ul li a:active {
 	color: rgba(#000, 1);
 }
 
+@media only screen and (max-width: 768px) { 
+	.subPageHeaderBackground {
+		a.mobileIcon {
+			color: #000;
+		}
+
+		.menuLinks {
+			background-color: #fff;
+		}
+	}
+}
 
 
 // App Title, Price, Description and Links
@@ -312,7 +360,7 @@ nav > ul li a:active {
 }
 
 .appDescriptionContainer {
-	font-size: 2.5rem;
+	font-size: 2.375rem;
 	font-weight: normal;
 	width: 100%;
 	align-items: flex-start;
@@ -611,7 +659,7 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding-top: 20px;
+	padding: 60px 0;
 }
 
 .footerText {
@@ -698,12 +746,12 @@ footer {
 }
 
 .FooterSupportDiv {
-		display: flex;
+	display: flex;
     flex: 0 1 20%;
-    margin-right: 40px;
-		display: flex;
-		-webkit-box-align: center;
-		align-items: center;
+	margin: 20px;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
 }
 
 .hidden {
