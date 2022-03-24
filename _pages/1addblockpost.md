@@ -9,7 +9,7 @@ include_in_header: true
 ## Коротка відео інструкція (огляд рішення)
 
 Вітаємо, просимо ознайомитись із коротким відео та дізнатись більше про роботу нашої системи ([https://www.youtube.com/watch?v=18ZVXmc67RU](https://www.youtube.com/watch?v=18ZVXmc67RU)):
-<iframe width="560" height="315" src="https://www.youtube.com/embed/18ZVXmc67RU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="385" src="https://www.youtube.com/embed/18ZVXmc67RU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Заявка на підключення вашого блок-поста
 

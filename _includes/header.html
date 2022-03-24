@@ -1,3 +1,5 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 <header>
 	<div class="logo">
 		<div class="appIconShadow">
@@ -18,7 +20,7 @@
 		<p class="headerName">{{ site.app_name }}</p>
 	</div>
 	<nav class="scroll">
-		<ul>
+		<ul class="menuLinks">
 			{% for page in site.pages %}
 				{% if page.include_in_header == true %}
 				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>
@@ -28,5 +30,30 @@
 				<li><a href="{{ site.presskit_download_link }}">Press Kit</a></li>
 			{% endif %}
 		</ul>
+
+		<a class="mobileIcon">
+			<i class="fa fa-bars"></i>
+		</a>
 	</nav>
 </header>
+<script>
+	$(function() {
+		$(".mobileIcon")?.[0].addEventListener('click', ($event) => {
+			$event.stopImmediatePropagation();
+			const links = $(".menuLinks")?.[0];
+			links.style.display = links.style.display === "block" ? "none" : "block";
+
+			const appIconShadow = $(".appIconLarge")?.[0];
+			if (appIconShadow) {
+				appIconShadow.style.visibility = links.style.display === 'block' ? 'hidden' : 'visible';
+			}
+		})
+
+		document.addEventListener('click', () => {
+			const links = $(".menuLinks")?.[0];
+			if (links.style.display === 'block') {
+				links.style.display = 'none';
+			}
+		})
+	});
+</script>
